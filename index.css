@@ -1,0 +1,145 @@
+:root {
+    --general-font-size: 1.2rem; 
+    --base-color: ;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+}
+#main-header {
+    background: rgb(255, 255, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+h1 {
+    margin: .25em;
+    flex: 2;
+    color:rgb(1, 1, 32);
+} 
+nav  {
+    margin: 1em;
+    flex: 1;
+}
+a {
+    margin: .5em;
+    font-size: var(--general-font-size);
+    text-decoration: none;
+    color: rgb(1, 1, 32);
+}
+#get-started {
+    margin-top: 3.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section h1 {
+    text-align: center;
+}
+input {
+    width: 25%;
+    max-width: 256px;
+    margin: .5em;
+}
+button {
+    padding: .5em;
+    width: 15%;
+    max-width: 153.6px;
+    background: rgb(0, 204, 255);
+    border: 1px solid;
+    color: #FFF;
+}
+/*  pricing section */
+#pricing {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between; 
+}
+.box {
+    width: 30%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    text-align: center;
+}
+.box header {
+    width: 100%;
+    padding: 0 100%;
+}
+.box h1 {
+    margin: 0;
+    padding: .5em 0;
+    background: rgb(241, 238, 238);
+}
+.box main {
+    padding: .5em;
+}
+.box button {
+    width: 100%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    background: rgb(241, 238, 238);
+    font-size: 1.12rem;
+}
+.policy {
+    margin: 1em 1em 0;
+    display: flex;
+    justify-content: space-around;
+}
+.policy span {
+    margin: 0 .5em;
+} 
+.copyright p {
+    margin: .5em;
+}
+
+@media screen and (max-width: 719px) {
+    header {
+        flex-direction: column;
+    }
+    h1 {
+        margin: 0;
+        text-align: center;
+    }
+    nav {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #get-started {
+        margin-top: 5.5em;
+    }
+    input {
+        width: 60%;
+    }
+    button {
+        width: 30%;
+    }
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        margin: .5em 0;
+        width: 100%;
+    }
+}
+@media screen and (min-width:720px) and (max-width:936px) {
+    h1 {
+        flex: 1;
+    }
+    nav {
+        margin: .4em;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
