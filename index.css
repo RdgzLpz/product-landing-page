@@ -2,6 +2,9 @@
     --general-font-size: 1.2rem; 
     --base-color: ;
 }
+body {
+    overflow-x: hidden;
+}
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -120,6 +123,7 @@ footer {
     }
     input {
         width: 60%;
+        padding: .5em;
     }
     button {
         width: 30%;
