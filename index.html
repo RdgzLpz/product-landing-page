@@ -6,6 +6,7 @@
     <meta name="theme-color" content="rgb(255, 255, 0)">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e029fa9463.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -19,8 +20,34 @@
         </header>
         <section id="get-started">
             <h1>Handcrafted, home-made masterpieces</h1>
-            <input type="email" id="input-email" placeholder="Enter your email address">
+            <input type="email" id="input-email" placeholder="Enter your email address" autofocus>
             <button type="button">GET STARTED</button>
+        </section>
+        <!--  features  -->
+        <!-- IMPORTANT:  the problem is because the icons are positioned relatively, it means out of the page design -->
+        <section id="features">
+            <div class="one-feature">
+                <i class="fas fa-truck fa-5x" style="color:rgb(0, 204, 255)"></i>     
+                <div class="description">
+                    <header>
+                        <h1>Fast Shipping</h1>
+                    </header>
+                    <main>
+                        <p>We make sure you receive your piano as soon as we have finished making it. We also provided free returns if you're not satisfied.</p>
+                    </main>
+                </div>      
+            </div>
+            <div class="one-feature">
+                <i class="fas fa-box fa-5x" style="color:rgb(0, 204, 255)" ></i>
+                <div class="description">
+                    <header>
+                        <h1>Quality Assurance</h1>
+                    </header>
+                    <main>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </main>
+                </div>
+            </div>
         </section>
         <!--  pricing section -->
         <section id="pricing">
