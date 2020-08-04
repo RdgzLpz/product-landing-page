@@ -2,6 +2,9 @@
     --base-color: rgb(255, 255, 0);
     --secondary-color: rgb(0, 204, 255);
 }
+body {
+    font-family:  'Noto Sans';
+}
 .container {
     max-width: 1024px;
     margin:  auto;
@@ -75,10 +78,9 @@ button {
     font-size: 2.1rem;
     text-align: center;
 }
-.description p {
-    margin: .8em 4.5em;
+main p {
+    margin: .8em 5em;
     font-size: 1.2rem;
-    text-align: center;
 }
 /*  pricing section */
 #pricing {
@@ -130,6 +132,9 @@ footer {
 }
 /*  1st media query */
 @media screen and (max-width: 719px) {
+    #main-header {
+        width: 100vw;
+    }
     header {
         flex-direction: column;
     }
@@ -163,8 +168,8 @@ footer {
         margin-top: 1em;
         text-align: center;
     }
-    .description p {
-        margin: .25em 0;
+    main p {
+        margin: .25em 1em;
     }
     #pricing {
         flex-direction: column;
