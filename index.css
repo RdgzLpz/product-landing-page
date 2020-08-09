@@ -3,7 +3,6 @@
     --secondary-color: rgb(0, 204, 255);
 }
 body {
-    font-family:  'Noto Sans';
     overflow-x: hidden;
 }
 .container {
