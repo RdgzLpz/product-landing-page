@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="rgb(255, 255, 0)">
+    <meta name="theme-color" content="navy">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./favicon/favicon.png" type="image/png" sizes="16x16">
     <script src="https://kit.fontawesome.com/e029fa9463.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -76,6 +77,19 @@
                     <button type="button">SELECT</button>
                 </main>
             </div>
+              <div class="box">
+                <header>
+                    <h1>Korg Piano</h1>
+                </header>
+                <main>
+                    <h2 id="price">$1050</h2>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum dolor</p>
+                    <p>Lorem ipsum</p>
+                    <button type="button">SELECT</button>
+                </main>
+            </div>
             <div class="box">
                 <header>
                     <h1>Casio Piano</h1>
@@ -97,9 +111,10 @@
                 <span>Contact</span>
             </div>
             <div class="copyright">
-                <p>Copyright 2020, Original Pianos</p>
+                <p>&copy; Copyright <span id="year"></span>, Original Pianos</p>
             </div>
         </footer>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
