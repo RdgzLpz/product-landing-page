@@ -14,10 +14,6 @@ header {
 }
 #main-header {
     background: var(--base-color);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
     width: 100vw;
     max-width: 1024px;
 }
@@ -210,4 +206,12 @@ footer {
             padding: .5em;
             width: 100%;
     }
+}
+@media screen and (min-width:900px) {
+	#main-header {
+               position: fixed;
+       	       top: 0;
+	       right: 0;
+	       left: 0;
+       }
 }
